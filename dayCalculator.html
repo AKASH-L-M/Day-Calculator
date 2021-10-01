@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day calculator</title>
+        <script>
+        function cal()
+        {
+            k = parseInt(document.getElementById("DD").value);
+            m = parseInt(document.getElementById("MM").value);
+            cd = parseInt(document.getElementById("YYYY").value);
+
+            if (m <= 2){
+                cd = cd-1;
+                m = m+10;
+            }
+            else{
+                m = m-2;
+            }
+            d = Math.floor(cd%100);
+            cd = Math.floor(cd/100);
+            c = Math.floor(cd%100);
+            // console.log(" k=",k," m=",m,"c=",c," d=",d)
+
+            s = Math.floor((((13*m)-1)/5));
+            t = Math.floor((d/4));
+            u = Math.floor((c/4))
+            // console.log(" s=",s," t=",t,"u=",u)
+
+            f = parseInt((k)) + parseInt(s) + parseInt(d) + parseInt(t) + parseInt(u) - parseInt(2*c);
+            // console.log(" Value of F=",f)
+            f = f % 7;
+            // console.log(" Value of f after modulus(%7)=",f)
+            f = Math.floor(f);
+            // console.log(" After floor function,f=",f)
+            if (f==0){
+                document.getElementById("result").innerHTML = "Sunday";
+            } else if(f==1){
+                document.getElementById("result").innerHTML = "Monday";
+            } else if(f==2){
+                document.getElementById("result").innerHTML = "Tuesday";
+            } else if(f==3){
+                document.getElementById("result").innerHTML = "Wednesday";
+            } else if(f==4){
+                document.getElementById("result").innerHTML = "Thursday";
+            } else if(f==5){
+                document.getElementById("result").innerHTML = "Friday";
+            } else if(f==6){
+                document.getElementById("result").innerHTML = "Saturday";
+            }
+        
+}
+        </script>
+    </head>
+        <body bgcolor="yellow">
+            <form>
+                <br>
+                <br>
+                <b><center><font color="red" size="78" <h1>DAY CALCULATOR</h1></font>
+                    <br/>
+                    <br/>
+                    <br/>
+                                 
+                    DD   &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; : <input type="text" id="DD" /><br>
+                    MM   &nbsp; &nbsp;&nbsp;&nbsp;: <input type="text" id="MM" /><br>
+                    YYYY  &nbsp;: <input type="text" id="YYYY" /><br>
+                    <br>
+
+                    <input type="button" onClick="cal()" Value="Submit" />
+                    <p>The Result is : <br>
+                        <span id = "result"></span>
+                        </p>
+            </center>
+
+              </form>
+              
+        </body>
+        
+    
+</html>
