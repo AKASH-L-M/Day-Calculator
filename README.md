@@ -9,4 +9,5 @@
 > This is quite running great as per mathematical aspects are concerned. But some more validation needs to be done to make it fully functional, and ready to go. <br/>
 > It is constituted with 30% of HTML, 10% CSS3 and 60% JavaScript. <br/>
 > Quite interesting project for beginner in field of Web Programming. <br/>
-> 
+> <br/><br/>
+> Happy Coding...
