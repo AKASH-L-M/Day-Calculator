@@ -7,6 +7,9 @@
 > Deploy https://akash-l-m.github.io/Day-Calculator/ <br />
 > Tenure: 1 day of coding + 7 days of literature review and discussion with team mate. <br/>
 > Team size: 2 <br/>
+> Team Members: 
+>   Akash L M
+>   Sujanth 
 > Tool Stack: VS Code. <br/> 
 > Objective : It basically calculates a specific day of the week, when a particular date DD-MM-YYYY is submitted.<br/> 
 > Explanation : As this is my first project in Engineering, I did not prepare any documentation for this project. <br/>
