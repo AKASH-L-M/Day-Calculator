@@ -8,8 +8,8 @@
 > Tenure: 1 day of coding + 7 days of literature review and discussion with team mate. <br/>
 > Team size: 2 <br/>
 > Team Members: <br>
->   -> Akash L M <br>
->   -> Sujanth <br>
+>   -> Akash L M - CSE<br>
+>   -> Sujanth - CSE <br>
 > Tool Stack: VS Code. <br/> 
 > Objective : It basically calculates a specific day of the week, when a particular date DD-MM-YYYY is submitted.<br/> 
 > Explanation : As this is my first project in Engineering, I did not prepare any documentation for this project. <br/>
