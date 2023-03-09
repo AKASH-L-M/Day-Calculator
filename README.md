@@ -5,6 +5,9 @@
 <br> My first Web Project!
 <br>
 > Deploy https://akash-l-m.github.io/Day-Calculator/ <br />
+> Alternate Link:- https://proud-recipe-4970.on.fleek.co/
+
+<br>
 > Tenure: 1 day of coding + 7 days of literature review and discussion with team mate. <br/>
 > Team size: 2 <br/>
 > Team Members: <br>
