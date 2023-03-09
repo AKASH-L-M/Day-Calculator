@@ -20,7 +20,8 @@
 > It is constituted with 30% of HTML, 10% CSS3 and 60% JavaScript. <br/>
 > Quite interesting project for beginner in field of Web Programming. <br/>
 > <br/><br/>
-> Preview:![Day_image](https://user-images.githubusercontent.com/91725049/148627851-d4265c24-69c9-4440-933b-6a445a5ca987.jpg)
+> Preview:
+> <br>![Day_image](https://user-images.githubusercontent.com/91725049/148627851-d4265c24-69c9-4440-933b-6a445a5ca987.jpg)
 
 >  
 > Happy Coding...
